@@ -1,0 +1,15 @@
+Appointment Management System
+
+/appts -- GET -- index -- Show all appointments
+
+/appts/new -- GET -- new -- Add new appointment
+
+/appts/:id -- DELETE -- destroy -- Delete appointment
+
+/appts -- POST -- create -- sends the newly created appointment
+
+/appts/:id -- PUT -- update -- Adds changes made to appointment
+
+/appts/:id/edit -- GET -- edit -- Shows form to edit 
+
+/appts/:id -- GET -- show -- Shows individual appointment
